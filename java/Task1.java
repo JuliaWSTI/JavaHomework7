@@ -18,7 +18,7 @@ public class Task1 {
                 int b3 = strumien.read();
                 int b4 = strumien.read();
 
-                // liczba sekund of 1900
+                // liczba sekund od 1900
                 long sekundyOd1900 = ((long)b1 << 24) | ((long)b2 <<16) | ((long)b3<<8) | ((long)b4);
 
                 //zgodność z JAVA
